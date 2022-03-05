@@ -6,7 +6,7 @@ class program5 {
 
 		while (n != 0) {
 			sum = sum + n % 10;
-			n = n / 10;
+			n = (n -(n%10))/ 10;
 		}
 		return sum;
 	}
