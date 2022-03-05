@@ -1,0 +1,15 @@
+using System;
+
+class Program {
+    public static void Main(string[] args) {
+Console.WriteLine("Enter number:");
+      int n = Convert.ToInt32(Console.ReadLine());
+      int i=n;
+   while(i<=100){
+      if(i%21==0)
+        Console.WriteLine("var");
+      else
+        i++;
+    }
+      Consle.WriteLine("yoxdur");
+    }

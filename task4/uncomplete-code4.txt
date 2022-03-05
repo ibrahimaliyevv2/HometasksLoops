@@ -1,0 +1,29 @@
+using System;
+class Program4
+{
+	static int reverseDigits(int number)
+	{
+		int reverse = 0;
+		while (number > 0) {
+			reverse = reverse * 10 + number % 10;
+			number = number / 10;
+		}
+		return reverse;
+	}
+	static int reverseCheck(int n)
+	{
+	
+		int rev_n = reverseCheck(n);
+
+		if (rev_n == n)
+			return 1;
+		else
+			return 0;
+	}
+	public static void Main()
+	{
+	Console.WriteLine("Enter number:");
+int n = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine(reverseCheck(n)==1 ? "palindrom ededdir" : "padlindrom deyil");
+	}
+}
