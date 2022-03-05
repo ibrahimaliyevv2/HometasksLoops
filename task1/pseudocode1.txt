@@ -1,0 +1,24 @@
+1. 1-den M-edek ededler icerisinde 15-e bolunenlerin ededi ortasini hesablayan alqoritm 
+
+Pseudocode:
+
+start
+input m
+
+i=1
+count=0
+sum=0
+while i<=m
+	if i%15==0 && i!=0
+		sum+=i
+		count++
+		i++
+	else
+		i++
+end while
+
+average = sum/count
+
+print average
+
+end

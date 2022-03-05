@@ -1,0 +1,24 @@
+ 2. N-den 100-edek ededler icerisinde 21-e bolunen ededin olub olmadigini tapan alqoritm
+Pseudocode:
+
+start
+
+i=n
+
+while i<=100
+
+	if i%21==0
+
+		print "var"
+
+	else 
+
+		i++
+
+end while
+
+
+
+print "yoxdur"
+
+end
